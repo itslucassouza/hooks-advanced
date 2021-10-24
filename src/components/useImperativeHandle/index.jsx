@@ -44,7 +44,6 @@ export const DisplayCounted = forwardRef(function DisplayCounted(
     handleClick,
     divRef: divRef.current,
   }));
-
   return (
     <div
       ref={divRef}
